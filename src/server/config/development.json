@@ -1,0 +1,14 @@
+{
+    "router": {
+        "enabled": true,
+        "priority": 130,
+        "module": {
+            "name": "express-enrouten",
+            "arguments": [
+                {
+                    "index": "path:../../build/server/routes"
+                }
+            ]
+        }
+    }
+}
